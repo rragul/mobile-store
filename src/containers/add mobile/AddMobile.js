@@ -25,7 +25,7 @@ export default function AddMobile() {
   function addMobile(event){
     event.preventDefault();
     console.log(name, price, url);
-    axios.post("/addMobile",{
+    axios.post("https://mobile-api.onrender.com/addMobile",{
       name: name,
       price: price,
       img: url
