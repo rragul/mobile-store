@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #1a1a1a;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.navbar .logo{
+    height: 60px;
+    width: 300px;
+    padding-left: 40px;
+}
+
+p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.navbar .menu{
+    float: right;
+    padding-right: 50px;
+}
+
+.navbar .menu .item{
+    display: inline-block;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar .menu .item:hover{
+    background-color: #7f8fa6;
+}
