@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AddMobile from "./containers/add mobile/AddMobile";
 import ViewMobile from "./containers/viewmobiles/ViewMobile";
 import Navbar from "./containers/navbar/Navbar";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
