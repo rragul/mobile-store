@@ -8,7 +8,7 @@ export default function ViewMobile() {
 
   useEffect(() => {
     let api = axios.create({
-      baseURL: "https://mobile-api.onrender.com/mobile",
+      baseURL: "/mobile",
     });
     let getMobile = async () => {
       let data = await api
